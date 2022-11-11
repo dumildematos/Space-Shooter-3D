@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class PlayerMovment : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    [SerializeField] float movementSpeed = 100;   
+    Transform myT;
+
+    void Awake() {
+        myT = transform;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        Thrust();
     }
+
+    void Thrust(){
+        if(Input.GetAxis("Vertical") > 0 )
+            myT.position += myT.forward * movementSpeed * Time.deltaTime * Input.GetAxis("Vertical");    
+    }
+
 }
