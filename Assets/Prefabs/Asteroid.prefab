@@ -110,6 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c35359f5db04cf0902cf615cf0e559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minScale: 0.8
-  maxScale: 1.2
+  minScale: 2.4
+  maxScale: 6
   rotaionOffset: 100

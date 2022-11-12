@@ -23,10 +23,10 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Roll
-    descriptiveName: q
-    descriptiveNegativeName: e
-    negativeButton: left
-    positiveButton: right
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: q
+    positiveButton: e
     altNegativeButton: 
     altPositiveButton: 
     gravity: 3
